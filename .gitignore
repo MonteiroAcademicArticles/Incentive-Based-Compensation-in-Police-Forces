@@ -1,0 +1,14 @@
+
+*.csv
+*.dta
+*.dbf
+*.prj
+*.shx
+*.shp
+*.Rhistory
+*.dcf
+*.rds
+*.html
+*.pdf
+*.exe
+
