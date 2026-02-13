@@ -63,8 +63,6 @@ Constructed datasets
 
 If you are distributing data_SIM_2021-07.dta for convenience, you can still reproduce it from the raw sources by running 00-creation.R and 01-construction.R.
 
-
-
 Code (Analysis folder)
 
 All program files are located in the Analysis/ folder. The main entry point is MASTER.R, which calls the remaining scripts and exports estimations into user-friendly tables.
@@ -80,7 +78,6 @@ Scripts are numbered to indicate the intended order:
 ```
 
 Scripts with the same number (e.g., the two 02-... scripts) can be run in any order after prerequisites are completed.
-
 
 Script descriptions
 ```text
