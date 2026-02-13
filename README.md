@@ -29,8 +29,8 @@ Directory structure
 │   ├── 03-robustness-poisson.R
 │   └── utils.R
 └── Output/
-    ├── Tables/
-    └── Figures/
+    └──Tables/
+  
 ```
 
 Data
