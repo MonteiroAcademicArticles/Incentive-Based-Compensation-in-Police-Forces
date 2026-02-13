@@ -9,6 +9,7 @@ Software requirements
 	•	Stata: not required / required only to open .dta outputs (depending on your workflow).
 
 
+```text
 Directory structure
 ├── DATA/
 │   ├── _police/
@@ -16,21 +17,20 @@ Directory structure
 │   ├── _population/
 │   ├── _geo/
 │   └── data_SIM_2021-07.dta
-└── Analysis/
-    ├── MASTER.R
-    ├── 00-creation.R
-    ├── 01-construction.R
-    ├── 02-analysis-descriptives.R
-    ├── 02-analysis-main.R
-    ├── 03-robustness-spatial2.R
-    ├── 03-robustness-placebo.R
-    ├── 03-robustness-poisson.R
-    └── utils.R
-└── Output
-    ├── Tables
-    ├── Figures
-
-
+├── Analysis/
+│   ├── MASTER.R
+│   ├── 00-creation.R
+│   ├── 01-construction.R
+│   ├── 02-analysis-descriptives.R
+│   ├── 02-analysis-main.R
+│   ├── 03-robustness-spatial2.R
+│   ├── 03-robustness-placebo.R
+│   ├── 03-robustness-poisson.R
+│   └── utils.R
+└── Output/
+    ├── Tables/
+    └── Figures/
+```
 
 Data
 The DATA/ folder contains (i) raw data organized by source and (ii) the main dataset used in the paper.
