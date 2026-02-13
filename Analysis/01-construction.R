@@ -181,7 +181,7 @@ sim <- sim[!is.na(sim$aisp) & !is.na(sim$year) & !is.na(sim$month), ]
 sim$year_month <- sim$year*100+ sim$month
 
 # Load shapefiles
-aisp_shp <- readOGR(dsn = GIS, layer = "lm_aisp_072024")
+aisp_shp <- st_read(dsn = GIS, layer = "lm_aisp_072024")
 aisp_shp <- st_make_valid(st_as_sf(aisp_shp))
 
 aisp_shp <- st_as_sf(aisp_shp) %>%
