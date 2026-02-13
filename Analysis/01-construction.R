@@ -689,7 +689,7 @@ sim <-
 if (EXPORT_data){
   sim %>% write.csv2(
     file = file.path(DATA, 
-                     "data_SIM_2019_constructed_extra.csv"),
+                     "final_data_SIM.csv"),
     row.names = F,
     na = "")
 }
