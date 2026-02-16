@@ -79,7 +79,7 @@ tab1VarLabels <- c("Eligible",
 stargazer(sd %>% dplyr::select(tab1Vars),
           summary.stat = c("n", "mean", "sd", "min", "max"),
           type = "text",
-          out = file.path(OUTPUTS_final, "tab1.html"),
+          out = file.path(OUTPUTS_final, "Table 1 - Descriptive statistics.html"),
           covariate.labels = tab1VarLabels
           )
 

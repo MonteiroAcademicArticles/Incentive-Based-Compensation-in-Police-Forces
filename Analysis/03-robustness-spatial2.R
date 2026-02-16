@@ -441,7 +441,7 @@ rownames(slRegTable) <- rows
 
 
 if(EXPORT_tables){
-  huxtable::quick_xlsx(slRegTable_hux, file = file.path(OUTPUTS_final, "spatial_lag_unformated.xlsx"))
+  huxtable::quick_xlsx(slRegTable_hux, file = file.path(OUTPUTS_final, "Table A4 - Spatial lags.xlsx"))
   
 }
 
